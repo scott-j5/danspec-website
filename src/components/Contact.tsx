@@ -176,7 +176,7 @@ export function Contact() {
               src={images.drainage}
               alt="Concrete culvert sections being set into a stormwater trench"
             />
-            <figcaption>Echuca yard</figcaption>
+            <figcaption>Moama Solar Farm</figcaption>
           </figure>
           <ul className="contact-details">
             {details.map((item) => {

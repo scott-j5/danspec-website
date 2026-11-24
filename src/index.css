@@ -1083,6 +1083,31 @@ ol {
   opacity: 0.9;
 }
 
+.footer-certs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  margin-top: 20px;
+}
+
+.footer-certs a {
+  display: inline-flex;
+  line-height: 0;
+}
+
+.footer-certs img {
+  height: 52px;
+  width: auto;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.footer-certs a:hover img,
+.footer-certs a:focus-visible img {
+  filter: none;
+  opacity: 1;
+}
+
 .footer-grid > div > p {
   max-width: 280px;
   margin-top: 24px;

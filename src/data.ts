@@ -1,15 +1,18 @@
 export const LOGO =
-  'https://media.base44.com/images/public/6ae5ce3edc4eb029e688a22b/4163a07ff_TB_BGT_Std_No-M.svg'
+  'danspec-logo.svg'
 
 const media = 'https://media.base44.com/images/public/6ae5ce3edc4eb029e688a22b'
 const fill = (file: string, size: string) =>
   `${media}/${file}/v1/fill/${size},al_c,q_85,enc_auto/${file}`
 
 export const images = {
-  hero: fill('e78070ef4_generated_image.png', 'w_1940,h_901'),
+  hero: 'fox-island-bridge-roadworks.jpg',
+  //hero: fill('e78070ef4_generated_image.png', 'w_1940,h_901'),
   roads: fill('676690891_generated_image.png', 'w_900,h_560'),
-  subdivision: fill('4bc11eef7_generated_image.png', 'w_900,h_560'),
-  drainage: fill('bd30d08e4_generated_image.png', 'w_900,h_620'),
+  subdivision: 'murray-sound.jpg',
+  // subdivision: fill('4bc11eef7_generated_image.png', 'w_900,h_560'),
+  // drainage: fill('bd30d08e4_generated_image.png', 'w_900,h_620'),
+  drainage: 'danspec-excavators.jpg',
   aggregate: fill('fe0d5e751_generated_image.png', 'w_900,h_560'),
 }
 
@@ -193,7 +196,7 @@ export const workTypes = [
   'Roads & pavements',
   'Drainage & stormwater',
   'Subdivision civil works',
+  'VEDN Works',
   'Water & sewer infrastructure',
   'Maintenance & repairs',
-  'Something else',
 ]
